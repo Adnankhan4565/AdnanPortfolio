@@ -1,0 +1,131 @@
+{
+  "visual": {
+    "navbar": {
+      "links": [
+        {
+          "label": "Experience",
+          "path": "#experience"
+        },
+        {
+          "label": "Skills",
+          "path": "#skills"
+        },
+        {
+          "label": "Projects",
+          "path": "#projects"
+        },
+        {
+          "label": "Education",
+          "path": "#education"
+        }
+      ]
+    },
+    "home": {
+      "sections": {
+        "banner": true,
+        "experience": true,
+        "project": true,
+        "education": true,
+        "testimonial": true
+      }
+    }
+  },
+  "personalInfo": {
+    "name": "Adnan Khan",
+    "title": "Full Stack Developer",
+    "location": "Peshawar, Pakistan",
+    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. Lets collaborate andbring your ideas to life."
+  },
+  "contactInfo": {
+    "email": "adnankhan14077@gmail.com",
+    "phone": "+923209665332",
+    "linkedin": "https://www.linkedin.com/in/adnan-khan-777143205/",
+    "github": "https://github.com/Adnankhan4565",
+    "twitter": "https://x.com/Aden4565?s=08",
+    "website": "/"
+  },
+  "skills": {
+    "languages": [
+      {
+        "id": 1,
+        "name": "Javascript",
+        "designation": "Software Engineer",
+        "image": "/assets/logo.png"
+      }
+    ],
+
+    "frameworks": ["React", "Node.js", "Express", "Django", "Spring Boot"],
+    "databases": ["MySQL", "MongoDB", "PostgreSQL"],
+    "tools": ["Git", "Docker", "Kubernetes", "Jenkins", "AWS", "GCP"]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "AccordSecurity",
+      "description": " developed a comprehensive web application for Accord Security, leveraging Next.js to ensure a fully SEO-optimized and high-performance website. The application includes a role-based authentication system, allowing for secure and efficient management of users, blogs, and job applications via an intuitive admin dashboard.",
+      "technologies": [
+        "Next.js",
+        "TailwindCSS",
+        "MongoDB",
+        "JWT",
+        "Nodemailer"
+      ],
+      "live_url": "https://accordsecurity.com.au",
+      "code_repo_url": "https://github.com/Adnankhan4565",
+      "cover": "/assets/project_1.jpeg"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "Bingtech Solutions",
+      "companyWebsite": "https://example.com",
+      "role": "Full Stack Inten",
+      "startDate": "Jan 2021",
+      "endDate": "Jan 2022",
+      "technologies": ["Socket.io", "Node.js", "Express", "React", "MongoDB"],
+      "keyResponsibilities": [
+        "worked with team of developers to create scalable web applications.",
+        "Implemented RESTful APIs using Node.js and Express.",
+        "Developed front-end applications using React.",
+        "Integrated third-party services and APIs to enhance application functionality."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Coursera",
+      "degree": "Full Stack Web Development with React",
+      "description": "Completed a Coursera specialization that focused on building full-stack web applications using React, Node.js, Express, and MongoDB. Learned best practices for designing and implementing responsive, scalable, and secure web applications.",
+      "startDate": "Sep 2013",
+      "endDate": "May 2017"
+    },
+    {
+      "id": "2",
+      "institution": "Imsciences Peshawar",
+      "degree": "Bachelor of Science in Software Engineering",
+      "description": "Completed a comprehensive curriculum in Software Engineering, including courses in Programming, data structures, algorithms, and artificial intelligence. Worked on final year project 'GuardPatrol A guard tracking system' for improving accountability which consisted of a web application for admin to monitor the activities of the guards and a mobile app for guards to scan NFC and submit reports at their designated site's.",
+      "startDate": "Sep 2020",
+      "endDate": "Jube 2024"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Jane Smith",
+      "avatar": "/assets/testimonial_1_avatar.jpg",
+      "title": "Project Manager",
+      "company": "Tech Solutions Inc.",
+      "feedback": "John is a fantastic developer who consistently delivers high-quality work. His ability to solve complex problems is impressive."
+    },
+    {
+      "id": "2",
+      "name": "Mike Johnson",
+      "avatar": "/assets/testimonial_2_avatar.jpg",
+      "title": "CEO",
+      "company": "Web Innovators LLC",
+      "feedback": "John is a highly skilled developer who brings a lot of value to our projects. His expertise in full stack development is top-notch."
+    }
+  ]
+}
