@@ -18,38 +18,10 @@ import {
   TwitterLogoIcon,
   GlobeIcon,
 } from "@radix-ui/react-icons";
-import { Avatar } from "@/components/ui/avatar";
-import Image from "next/image";
-import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
-import { skills } from "../../constants/skills";
-import IconCloud from "@/components/magicui/icon-cloud";
 
-const slugs = [
-  "typescript",
-  "javascript",
-  "react",
-  "nodejs",
-  "html5",
-  "css3",
-  "nodedotjs",
-  "express",
-  "nextdotjs",
-  "mongodb",
-  "amazonaws",
-  "postgresql",
-  "nginx",
-  "vercel",
-  "jest",
-  "docker",
-  "git",
-  "jira",
-  "github",
-  "gitlab",
-  "visualstudiocode",
-  "python",
-  "webserver",
-  "digitalocean",
-];
+import Image from "next/image";
+import Skills from "@/components/ui/Skills";
+
 
 export default async function Home() {
   const data = await getData();
@@ -118,15 +90,7 @@ export default async function Home() {
       </section>
 
       {/* Skills */}
-      <section
-        id="skills"
-        className="flex flex-row items-center justify-center mb-10 w-full"
-      >
-        <h2 className="font-bold text-3xl md:text-4xl mb-12">Skills: </h2>
-        <div className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg bg-background px-20 pb-20 pt-8 ">
-          <IconCloud iconSlugs={slugs} />
-        </div>
-      </section>
+  <Skills />
 
       {/* Experience Section */}
       <section

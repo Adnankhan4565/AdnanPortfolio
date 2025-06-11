@@ -16,11 +16,11 @@ export const cloudProps: Omit<ICloud, "children"> = {
       justifyContent: "center",
       alignItems: "center",
       width: "100%",
-      paddingTop: 40,
+      paddingTop: 70,
     },
   },
   options: {
-    reverse: true,
+    reverse: false,
     depth: 1,
     wheelZoom: false,
     imageScale: 2,
@@ -45,7 +45,7 @@ export const renderCustomIcon = (icon: SimpleIcon) => {
     bgHex,
     fallbackHex,
     minContrastRatio,
-    size: 42,
+    size: 50,
     aProps: {
       href: undefined,
       target: undefined,
