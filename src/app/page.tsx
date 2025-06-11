@@ -175,7 +175,7 @@ export default async function Home() {
         <h2 className="font-bold text-3xl md:text-4xl mb-12">My Projects</h2>
         <div className="grid grid-cols-1 gap-4 lg:gap-6">
           {data.projects.map((project) => (
-            <Card key={project.title} className="flex flex-col lg:flex-row">
+            <Card key={project.id} className="flex flex-col lg:flex-row">
               <div className="w-full lg:w-1/3 p-2 flex items-center">
                 <Image
                   src={project.cover}

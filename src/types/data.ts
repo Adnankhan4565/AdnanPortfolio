@@ -48,6 +48,7 @@ export interface Skills {
 }
 
 export interface Project {
+   id: string | number;
   title: string;
   description: string;
   technologies: string[];
